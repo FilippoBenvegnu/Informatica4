@@ -4,7 +4,7 @@
         body {
             background-color: whitesmoke;
         }
-
+        
         .titolo {
             color: red; align: center;
         }
