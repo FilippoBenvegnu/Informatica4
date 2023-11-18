@@ -1,117 +1,152 @@
-<html>
-    <html lang="en">
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Catalogo Custom</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Verdana, sans-serif;
+        }
 
-    <body class="bg-black" style="font-family:VERD" >
-    <div 
-    class="display-1" 
-    style="color:green"
-    align="center">
-    🎨CATALOGO CUSTOM🎨
-</div>
-<hr class="border border-success border-3">   
-<a class="btn btn-success" href="./index.html" role="button" 
-style="background-color: green; 
-a
-width: 25em;
-padding: .5em;
-color: #ffffff;
-text-shadow: 1px 1px 1px #000;
-font: 16px Verdana;
-border: solid thin green;
--webkit-border-radius: .7em;
--moz-border-radius: .7em;
-border-radius: .7em;
-background-image: -webkit-gradient(linear, left top, left bottom,
-from(#e9ede8), to(#0dc20d),color-stop(0.4, #026413));">
-🏠Home🏠</a>
-<hr class="border border-success border-3">       
-    <h5 align="center" style="color:white">
-        Benvenuti al nostro catalogo di auto sportive personalizzate, il luogo in cui i vostri sogni di velocità, stile e unicità diventano realtà. 
+        .display-1 {
+            text-align: center;
+            color: green;
+        }
+
+        .btn-success {
+            background-color: green;
+            width: 100%;
+            padding: .5em;
+            color: #fff;
+            text-shadow: 1px 1px 1px #000;
+            font-size: 16px;
+            border: solid thin green;
+            border-radius: .7em;
+            background-image: -webkit-gradient(linear, left top, left bottom, from(green), to(#0dc20d), color-stop(0.4, #026413));
+        }
+
+        h5 {
+            text-align: center;
+            color: white;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-container {
+            text-align: center;
+            color: white;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .price {
+            font-size: 24px;
+        }
+
+        .buy-button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="display-1">
+        🎨CATALOGO CUSTOM🎨
+    </div>
+    <hr class="border border-success border-3">
+    <a class="btn btn-success" href="./index.html" role="button">
+        🏠Home🏠
+    </a>
+    <hr class="border border-success border-3">
+    <h5>
+        Benvenuti al nostro catalogo di auto sportive personalizzate, il luogo in cui i vostri sogni di velocità, stile e unicità diventano realtà.
         Qui, l'automobilismo diventa un'arte e l'auto diventa una tela in bianco pronta per essere personalizzata secondo i vostri desideri più audaci.
-        Ogni veicolo in questo catalogo rappresenta il massimo dell'ingegneria automobilistica e dell'artigianato, ma la magia risiede nella personalizzazione. 
+        Ogni veicolo in questo catalogo rappresenta il massimo dell'ingegneria automobilistica e dell'artigianato, ma la magia risiede nella personalizzazione.
         Ogni auto è un'opera d'arte unica, progettata per riflettere la vostra personalità, il vostro stile e la vostra passione per la guida ad alte prestazioni.
         <p>😍Godetevi lo spettacolo😍</p>
     </h5>
-<hr class="border border-success border-3">     
-<hr class="border border-success border-3"> 
-    <div class="text-center" style="color:white">
+    <hr class="border border-success border-3">
+    <hr class="border border-success border-3">
+    <div class="text-container">
         <img src="https://www.houseofmodelcars.com/images/Audi_RS6_GT348_13159580010309443Audi_RS6_GT348_Houseofmodelcars.jpg?width=1000"
-        width="500">
-    <h2> Audi RS6 Avant "Grey-Shark"</h2>  
-        <h4> 199.999,00 € </h4>
-        <button type="button" class="btn btn-success"> Acquista 🛒 </button>
+            width="500">
+        <h2> Audi RS6 Avant "Grey-Shark"</h2>
+        <p class="price"> 199.999,00 € </p>
+        <button type="button" class="btn btn-success buy-button"> Acquista 🛒 </button>
     </div>
-<hr class="border border-success border-3">     
-<hr class="border border-success border-3">  
-    <div class="text-center" style="color:white">
-        <img src="https://cdn.motor1.com/images/mgl/JO89BK/s1/yellow-mansory-venatus---lamborghini-urus.webp" 
-        class="rounded" 
-        width="500">
-    <h2> Lamborghini Urus Full Kit</h2>
-        <h4> 299.999,00 €</h4>
-        <button type="button" class="btn btn-success"> Acquista 🛒 </button>
-<hr class="border border-success border-3">     
-<hr class="border border-success border-3">  
-    <div class="text-center" style="color:white">
-    <img src="https://www.audi-mediacenter.com/system/production/media/101382/images/1ee1b92e788e931e267856af71f8060c40b00a9b/A213157_web_2880.jpg?1622043512" 
-    class="rounded" 
-    width="500">
-    <h2> Audi R8 x Phenix Racing </h2>
-        <h4> 214.999,00 €</h4>
-        <button type="button" class="btn btn-success"> Acquista 🛒 </button>
-<hr class="border border-success border-3">     
-<hr class="border border-success border-3">  
-   <div class="text-center" style="color:white">
-    <img src="https://exclusivecarmodels.com/1659-large_default/maserati-levante-trofeo-fuoriserie-edition-bbr-models-118-bbrc1844bot-blu-emozione-metallizzato-con-vetrina.jpg" 
-    class="rounded" 
-    width="500">
-    <h2> Maserati Levante Trofeo </h2>
-        <h4> 159.999,00 €</h4>
-        <button type="button" class="btn btn-success"> Acquista 🛒 </button>
-<hr class="border border-success border-3">     
-<hr class="border border-success border-3">  
-   <div class="text-center" style="color:white">
-    <img src="https://cdn.carbuzz.com/car-thumbnails/700x375/9000/700/9787.jpg" 
-    class="rounded" 
-    width="450">
-    <h2> Bugatti Chiron Shattared Backboard </h2>
-        <h4> 3.220.299,00 €</h4>
-        <button type="button" class="btn btn-success"> Acquista 🛒 </button>
-<hr class="border border-success border-3">     
-<hr class="border border-success border-3">  
-    <div class="text-center" style="color:white">
-    <img src="https://c4.wallpaperflare.com/wallpaper/777/347/659/bmw-m3-gt2-art-car-4-multi-color-racing-car-illustration-wallpaper-preview.jpg" 
-    class="rounded" 
-    width="400">
-    <h2> BMW M3 Car Art 4 </h2>
-        <h4> 289.999,00 €</h4>
-        <button type="button" class="btn btn-success"> Acquista 🛒 </button>
-<hr class="border border-success border-3">     
-<hr class="border border-success border-3">  
-    <div class="text-center" style="color:white">
-    <img src="https://bigcars.com/wp-content/uploads/2015/01/10-passenger-black-lincoln-towncar-exterior.jpg" 
-    class="rounded" 
-    width="450">
-    <h2> Lamborghini Urus (2020) </h2>
-        <h4> 69.499,00 €</h4>
-        <button type="button" class="btn btn-success"> Acquista 🛒 </button>
-<hr class="border border-success border-3">     
-<hr class="border border-success border-3"> 
-    <div class="text-center" style="color:white">
-    <img src="https://images.dealer.com/ddc/vehicles/2021/Lamborghini/Huracan%20EVO/Coupe/color/Viola%20Mel%20Matt-Q0VL-84,50,98-640-en_US.jpg" 
-    class="rounded" 
-    width="350">
-    <h2> Lamborghini Aventador Midnight Purple </h2>
-        <h4> 678.699,00 €</h4>
-        <button type="button" class="btn btn-success"> Acquista 🛒 </button>
-<hr class="border border-success border-3">     
-<hr class="border border-success border-3"> 
-    </body>
-
+    <hr class="border border-success border-3">
+    <hr class="border border-success border-3">
+    <div class="text-container">
+        <img src="https://cdn.motor1.com/images/mgl/JO89BK/s1/yellow-mansory-venatus---lamborghini-urus.webp"
+            class="rounded"
+            width="500">
+        <h2> Lamborghini Urus Full Kit</h2>
+        <p class="price"> 299.999,00 €</p>
+        <button type="button" class="btn btn-success buy-button"> Acquista 🛒 </button>
+    </div>
+    <hr class="border border-success border-3">
+    <hr class="border border-success border-3">
+    <div class="text-container">
+        <img src="https://www.audi-mediacenter.com/system/production/media/101382/images/1ee1b92e788e931e267856af71f8060c40b00a9b/A213157_web_2880.jpg?1622043512"
+            class="rounded"
+            width="500">
+        <h2> Audi R8 x Phenix Racing </h2>
+        <p class="price"> 214.999,00 €</p>
+        <button type="button" class="btn btn-success buy-button"> Acquista 🛒 </button>
+    </div>
+    <hr class="border border-success border-3">
+    <hr class="border border-success border-3">
+    <div class="text-container">
+        <img src="https://exclusivecarmodels.com/1659-large_default/maserati-levante-trofeo-fuoriserie-edition-bbr-models-118-bbrc1844bot-blu-emozione-metallizzato-con-vetrina.jpg"
+            class="rounded"
+            width="500">
+        <h2> Maserati Levante Trofeo </h2>
+        <p class="price"> 159.999,00 €</p>
+        <button type="button" class="btn btn-success buy-button"> Acquista 🛒 </button>
+    </div>
+    <hr class="border border-success border-3">
+    <hr class="border border-success border-3">
+    <div class="text-container">
+        <img src="https://cdn.carbuzz.com/car-thumbnails/700x375/9000/700/9787.jpg"
+            class="rounded"
+            width="450">
+        <h2> Bugatti Chiron Shattared Backboard </h2>
+        <p class="price"> 3.220.299,00 €</p>
+        <button type="button" class="btn btn-success buy-button"> Acquista 🛒 </button>
+    </div>
+    <hr class="border border-success border-3">
+    <hr class="border border-success border-3">
+    <div class="text-container">
+        <img src="https://bigcars.com/wp-content/uploads/2015/01/10-passenger-black-lincoln-towncar-exterior.jpg"
+            class="rounded"
+            width="450">
+        <h2> Lamborghini Urus (2020) </h2>
+        <p class="price"> 69.499,00 €</p>
+        <button type="button" class="btn btn-success buy-button"> Acquista 🛒 </button>
+    </div>
+    <hr class="border border-success border-3">
+    <hr class="border border-success border-3">
+    <div class="text-container">
+        <img src="https://images.dealer.com/ddc/vehicles/2021/Lamborghini/Huracan%20EVO/Coupe/color/Viola%20Mel%20Matt-Q0VL-84,50,98-640-en_US.jpg"
+            class="rounded"
+            width="350">
+        <h2> Lamborghini Aventador Midnight Purple </h2>
+        <p class="price"> 678.699,00 €</p>
+        <button type="button" class="btn btn-success buy-button"> Acquista 🛒 </button>
+    </div>
+    <hr class="border border-success border-3">
+</body>
 </html>
